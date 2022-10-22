@@ -5,7 +5,7 @@ const timeEl = document.querySelector('#time')
 const board = document.querySelector('#board')
 const timer = document.querySelector('#time')
 const restartBtn = document.querySelector('#restartBtn')
-const colors = ['red', 'blue', 'green', 'yellow', 'Lime', 'Orange', 'purple', 'Aqua'];
+const colors = ['red', 'blue', 'green', 'yellow', 'Lime', 'Orange', 'purple', 'Aqua', 'LightCoral', 'Crimson', 'MediumVioletRed', 'DodgerBlue'];
 let time = 0
 let score = 0
 

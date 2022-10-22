@@ -8,4 +8,4 @@ The game where you need to click on the largest number of balls in a limited tim
 * css
 * js
 
-Ссылка на ghpage: 
+Ссылка на ghpage: https://daniel-goncharov.github.io/Aim-Training-game/
