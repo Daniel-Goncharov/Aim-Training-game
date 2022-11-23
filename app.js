@@ -29,7 +29,9 @@ restartBtn.addEventListener('click', () => {
 board.addEventListener('click', (event) => {
   if (event.target.classList.contains('circle')) {
     score++
-    event.target.remove()
+    event.target.style.width = '100px'
+    event.target.style.height = '100px'
+    setTimeout(() => event.target.remove(), 100);
     createRandomeCircle()
   }
 })

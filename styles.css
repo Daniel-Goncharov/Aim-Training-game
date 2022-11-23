@@ -39,7 +39,7 @@ h1 {
   height: 100vh;
   width: 100vw;
   transition: margin 0.5s ease-out;
-  background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
 }
 
 .screen.up {
@@ -93,7 +93,7 @@ h1 {
   position: relative;
   width: 500px;
   height: 500px;
-  background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
+  background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
   box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
   border-radius: 30px;
   overflow: hidden;
@@ -123,5 +123,5 @@ h1 {
 .circle {
   position: absolute;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: crosshair;
 }
